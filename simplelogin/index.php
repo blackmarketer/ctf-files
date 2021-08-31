@@ -27,6 +27,8 @@ if ( isset($_GET['username']) and isset($_GET['pass']) ) {
 
 <!--
 
+
+
 $url = urldecode($_SERVER['REQUEST_URI']);
 $url = parse_url($url, PHP_URL_QUERY);
 if (preg_match("/[#$%^*()+\-\[\]\';,.\/{}|:<>?~\\\\]/", $url))
@@ -46,7 +48,9 @@ if ( isset($_GET['username']) and isset($_GET['pass']) ) {
         else
                 print ("Wrong Credentials");
 }
-                        
+  
+
+                      
 -->
 
 
