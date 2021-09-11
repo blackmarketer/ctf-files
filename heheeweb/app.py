@@ -20,9 +20,9 @@ class index:
         try:
 
             get_input = web.input()
-            cookie = web.cookies().get('ci') if 'ci' in web.cookies() else None
+            cookie = web.cookies().get('cookie') if 'cookie' in web.cookies() else None
             if not cookie:
-                web.setcookie('ci', 'M52WK43U' , expires="", domain=None, secure=False)
+                web.setcookie('cookie', 'M52WK43U' , expires="", domain=None, secure=False)
             if (cookie):
                 try:
                     o = eval(base64.b32decode(str(cookie)))
