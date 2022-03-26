@@ -1,7 +1,7 @@
 <?php
 
-$password = "UDQ1NVcwUkQ=";
-$username = "VTUzUk40TTM=";
+$password = "UDQ1NVcwUkQ";
+$username = "VTUzUk40TTM";
 $flag= "<br><br><h1 align='center' style='color: red'>hehe{y0u_g0t_th3_fl4g_h3h3}</h1>";
 $url = urldecode($_SERVER['REQUEST_URI']);
 $url = parse_url($url, PHP_URL_QUERY);
