@@ -248,7 +248,7 @@ if ( isset($_GET['username']) and isset($_GET['pass']) ) {
 <link rel="stylesheet" type="text/css" href="util.css">
 <link rel="stylesheet" type="text/css" href="main.css">
 
-<!-- css --><!-- css --><!-- css --><!-- css --><!-- css --><!-- css -->
+<!-- css --><!-- css --><!-- css --><!-- css --><!-- css --><!-- css --><!--css-->
 
 
 
